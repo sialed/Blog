@@ -1,5 +1,6 @@
 ---
 title: "Post Prueba"
+header:
   overlay_image: \assets\images\posts\2018-02-08-Post-Prueba\clem-onojeghuo-207792.jpg
 toc: true
 toc_label: "Tabla de contenidos"
