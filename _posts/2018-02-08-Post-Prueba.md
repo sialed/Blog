@@ -1,6 +1,6 @@
 ---
 header:
-  image: \assets\images\posts\20180208PostPrueba\header.jpg
+  image: \assets\images\header.jpg
 toc: true
 toc_label: "Tabla de contenidos"
 toc_icon: "cog"
