@@ -1,4 +1,5 @@
 ---
+title: "¡Hello, World!"
 header:
   image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
   og_image: /assets/images/posts/2018-02-08-Post-Prueba/og.jpg
