@@ -1,7 +1,7 @@
 ---
 header:
   image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
-  og_image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
+  og_image: /assets/images/posts/2018-02-08-Post-Prueba/og.jpg
 toc: true
 toc_label: "Tabla de contenidos"
 toc_icon: "cog"
