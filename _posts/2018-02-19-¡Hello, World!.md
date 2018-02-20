@@ -1,4 +1,10 @@
-Hola a todos, bienvenidos a este pequeño y humilde rincón que se acaba de abrir. Soy Alberto Pérez Cano, actualmente poseo el título de administración de sistemas informáticos en red y soy un apasionado de las nuevas tecnologías.
+---
+header:
+  image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
+  og_image: /assets/images/posts/2018-02-08-Post-Prueba/og.jpg
+---
+
+Hola a tod@s, bienvenid@s a este pequeño y humilde rincón que se acaba de abrir. Soy Alberto Pérez Cano, actualmente poseo el título de administración de sistemas informáticos en red y soy un apasionado de las nuevas tecnologías.
 
 En primer lugar, quiero comentaros que en este blog estará enfocado a temas de administración de servidores, sistemas operativos, redes y quién sabe si en algún que otro post me lanzo a algo de código.
 
@@ -8,6 +14,6 @@ Y abordando el tema del ritmo de publicaciones… pues la verdad que no me voy a
 
 Así que sin más os invito a que me sigáis por aquí, que aportéis en los comentarios de las entradas, que hagáis peticiones de los temas que os interesen tanto de manera pública como privada en redes sociales como por correo electrónico.
 
-Tenéis toda la información de como contactar en la zona izquierda de este blog.
+Tenéis toda la información de como contactar en la zona izquierda de este blog, si lo hacéis desde la versión de escritorio o en la parte superior de la página en caso de que estéis accediendo desde la versión móvil.
 
 Un saludo!
