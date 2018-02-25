@@ -2,8 +2,8 @@
 main:
   - title: "Inicio"
     url: https://sialed.github.io/blog/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Sobre mí"
+    url: https://sialed.github.io/blog/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
