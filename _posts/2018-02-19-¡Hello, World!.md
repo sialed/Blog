@@ -1,7 +1,5 @@
 ---
 title: "¡Hello, World!"
-categories:
-  - CategoriaPrueba
 tags:
   - TagPrueba
 header:
