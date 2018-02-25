@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Tags
+title: Etiquetas
 comments: false
 permalink: /tags/
 ---
