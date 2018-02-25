@@ -1,12 +1,12 @@
 ---
 title: "¡Hello, World!"
-header:
-  image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
-  og_image: /assets/images/posts/2018-02-08-Post-Prueba/og.jpg
 categories:
   - CategoriaPrueba
 tags:
   - TagPrueba
+header:
+  image: /assets/images/posts/2018-02-08-Post-Prueba/header.jpg
+  og_image: /assets/images/posts/2018-02-08-Post-Prueba/og.jpg
 ---
 
 Hola a tod@s, bienvenid@s a este pequeño y humilde rincón que se acaba de abrir. Soy Alberto Pérez Cano, actualmente poseo el título de administración de sistemas informáticos en red y soy un apasionado de las nuevas tecnologías.
