@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es Hyper-V?"
+title: "¿Qué es Microsoft Hyper-V?"
 tags:
   - Virtualizacion
   - Hyper-V
 header:
-  image: /assets/images/posts/2018-02-23-Que-es-Hyper-V/header.jpg
-  og_image: /assets/images/posts/2018-02-23-Que-es-Hyper-V/og.jpg
+  image: /assets/images/posts/2018-02-23-Que-es-Microsoft-Hyper-V/header.jpg
+  og_image: /assets/images/posts/2018-02-23-Que-es-Microsoft-Hyper-V/og.jpg
 ---
 
 Hay muchas ocasiones en las que nos es necesario utilizar varias máquinas para ejecutar varios sistemas operativos o simular algún tipo de infraestructura. En muchos de estos casos, no disponemos del número de máquinas físicas que necesitamos para esos fines, y es con Hyper-V con lo que podremos ejecutar varios sistemas operativos como máquinas virtuales en Windows.
