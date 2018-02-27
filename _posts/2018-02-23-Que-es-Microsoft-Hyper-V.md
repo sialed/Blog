@@ -1,8 +1,9 @@
 ---
 title: "¿Qué es Microsoft Hyper-V?"
 tags:
-  - Virtualizacion
+  - Virtualización
   - Hyper-V
+  - Microsoft
 header:
   image: /assets/images/posts/2018-02-23-Que-es-Microsoft-Hyper-V/header.jpg
   og_image: /assets/images/posts/2018-02-23-Que-es-Microsoft-Hyper-V/og.jpg
