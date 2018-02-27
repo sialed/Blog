@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Inicio"
-    url: https://sialed.github.io/blog/
+    url: /
   - title: "Sobre mí"
-    url: /blog/about/
+    url: /about/
   - title: "Etiquetas"
-    url: /blog/tags/
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
