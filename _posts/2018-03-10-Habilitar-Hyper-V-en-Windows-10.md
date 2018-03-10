@@ -38,7 +38,7 @@ Ahora vamos a pasar a comprobar cada uno de estos puntos.
 
 En primer lugar, vamos a comprobar que versión de Windows 10 tenemos en nuestro equipo en el caso de que la desconozcamos.
 
-El primer paso es pulsar con el botón derecho del ratón sobre inicio y acceder a Sistema.
+El primer paso es pulsar con el botón derecho del ratón sobre inicio y acceder a *Sistema*.
 
 ![Comprobar version de Windows 10 - Sistema]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png){: .align-center}
 
@@ -72,7 +72,7 @@ Se nos mostrará la información en la que veremos si nuestro procesador tiene s
 
 Para comprobar si nuestro procesador soporta las instrucciones de virtualización VT-x de Intel o AMD-v de AMD podemos hacerlo de varias maneras. Aquí vamos a ver 2 de ellas:
 
-Podemos consultar nuestro modelo de procesador pulsando el botón derecho del ratón sobre el botón inicio y accediendo a Sistema, en la opción *Acerca de* podemos ver nuestro modelo de procesador.
+Podemos consultar nuestro modelo de procesador pulsando el botón derecho del ratón sobre el botón inicio y accediendo a *Sistema*, en la opción *Acerca de* podemos ver nuestro modelo de procesador.
 
 ![Comprobar modelo de procesador]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/4 - comprobar modelo de procesador.png){: .align-center}
 
