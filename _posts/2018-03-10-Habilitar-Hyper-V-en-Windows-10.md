@@ -40,7 +40,7 @@ En primer lugar, vamos a comprobar que versión de Windows 10 tenemos en nuestro
 
 El primer paso es pulsar con el botón derecho del ratón sobre inicio y acceder a Sistema.
 
-![Comprobar version de Windows 10](/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png)
+![Comprobar version de Windows 10]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png)
 
 Ahora nos aparecerá otra ventana en la que seleccionaremos la opción “Acerca de” donde podremos ver las especificaciones del dispositivo y las especificaciones de Windows.
 
