@@ -2,7 +2,7 @@
 title: "Habilitar Hyper-V en Windows 10"
 toc: true
 toc_label: "Tabla de contenidos"
-toc_icon: "ul-list"
+toc_icon: "list-ul"
 tags:
   - Virtualización
   - Hyper-V
