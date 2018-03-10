@@ -100,7 +100,7 @@ En caso de no estarla debemos activarla accediendo a la BIOS de nuestro equipo, 
 
 Microsoft nos especifica que para poder hacer uno de Hyper-V debemos de disponer de al menos 4 GB de RAM. Para los que no sepan que cantidad de memoria disponen en su equipo vamos a verlo de una manera muy sencilla.
 
-Accediendo al administrador de tareas como anteriormente mediante la pestaña “Rendimiento” podemos verlo, pero en este caso pulsaremos sobre *Memoria*. Aquí podremos ver la cantidad y el tipo de memoria RAM que disponemos.
+Accediendo al administrador de tareas como anteriormente mediante la pestaña *Rendimiento* podemos verlo, pero en este caso pulsaremos sobre *Memoria*. Aquí podremos ver la cantidad y el tipo de memoria RAM que disponemos.
 
 ![Comprobar memoria ram]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/7 - Comprobar memoria ram.png){: .align-center}
 
