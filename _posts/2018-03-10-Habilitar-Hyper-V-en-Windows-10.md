@@ -17,7 +17,7 @@ Continuamos con la serie de post dedicados a Hyper-V(enlace a post Qué es Hyper
 
 Existen varias maneras de hacer esto, en este caso vamos a hacerlo de 2 maneras:
 
-* •	Panel de control de Windows 10 mediante interfaz gráfica
-* •	PowerShell
+* Panel de control de Windows 10 mediante interfaz gráfica
+* PowerShell
 
 Cabría destacar que no es necesario descargar ningún software adicional ya que Hyper-V está integrado en nuestro sistema y solo es necesario habilitarlo.
