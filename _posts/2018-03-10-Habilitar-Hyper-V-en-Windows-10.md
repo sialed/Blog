@@ -42,7 +42,7 @@ El primer paso es pulsar con el botón derecho del ratón sobre inicio y acceder
 
 ![Comprobar version de Windows 10 - Sistema]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png){: .align-center}
 
-Ahora nos aparecerá otra ventana en la que seleccionaremos la opción “Acerca de” donde podremos ver las especificaciones del dispositivo y las especificaciones de Windows.
+Ahora nos aparecerá otra ventana en la que seleccionaremos la opción *Acerca de* donde podremos ver las especificaciones del dispositivo y las especificaciones de Windows.
 
 En las especificaciones del sistema vemos el tipo de sistema que tenemos, y comprobar si es de 64 bits. Más abajo encontramos las especificaciones de Windows donde podemos ver la edición de Windows 10 que tenemos instalada en nuestro equipo.
 
@@ -72,7 +72,7 @@ Se nos mostrará la información en la que veremos si nuestro procesador tiene s
 
 Para comprobar si nuestro procesador soporta las instrucciones de virtualización VT-x de Intel o AMD-v de AMD podemos hacerlo de varias maneras. Aquí vamos a ver 2 de ellas:
 
-Podemos consultar nuestro modelo de procesador pulsando el botón derecho del ratón sobre el botón inicio y accediendo a Sistema, en la opción “Acerca de” podemos ver nuestro modelo de procesador.
+Podemos consultar nuestro modelo de procesador pulsando el botón derecho del ratón sobre el botón inicio y accediendo a Sistema, en la opción *Acerca de* podemos ver nuestro modelo de procesador.
 
 ![Comprobar modelo de procesador]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/4 - comprobar modelo de procesador.png){: .align-center}
 
@@ -80,7 +80,7 @@ Una vez conozcamos nuestro modelo exacto podemos acceder a las plataformas onlin
 
 Otra de las maneras que tenemos para hacer esta comprobación es mediante software de terceros como puede ser [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html). CPU-Z es un software gratuito que nos brinda una extensa información sobre nuestro procesador.
 
-Una vez descargado e instalado, ejecutamos el programa y en la pestaña CPU tenemos la zona de “Instructions” que nos da información sobre todo el conjunto de instrucciones que soporta nuestra CPU, entre las cuales tendremos que buscar las instrucciones VT-x en caso de Intel o AMD-v en caso de que nuestro procesador sea AMD.
+Una vez descargado e instalado, ejecutamos el programa y en la pestaña CPU tenemos la zona de *Instructions* que nos da información sobre todo el conjunto de instrucciones que soporta nuestra CPU, entre las cuales tendremos que buscar las instrucciones VT-x en caso de Intel o AMD-v en caso de que nuestro procesador sea AMD.
 
 ![Comprobar vt-x_amd-v]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/5 - Comprobar vt-x_amd-v.png){: .align-center}
 
@@ -90,7 +90,7 @@ Una vez hayamos comprobado que nuestro sistema operativo y nuestro procesador cu
 
 Una manera sencilla en Windows 10 es acceder al administrador de tareas mediante la combinación de teclas Ctrl+Alt+supr o haciendo uso del botón derecho del ratón sobre el menú inicio y Administrador de tareas.
 
-Una vez accedamos al administrador de tareas pulsamos en la pestaña “Rendimiento”, posteriormente pulsamos sobre CPU en la zona izquierda y debajo de la gráfica se nos muestra la información de si la virtualización está habilitada. 
+Una vez accedamos al administrador de tareas pulsamos en la pestaña *Rendimiento*, posteriormente pulsamos sobre CPU en la zona izquierda y debajo de la gráfica se nos muestra la información de si la virtualización está habilitada. 
 
 ![Comprobar virtualizacion activada]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/6 - comprobar virtualizacion activada.png){: .align-center}
 
@@ -100,7 +100,7 @@ En caso de no estarla debemos activarla accediendo a la BIOS de nuestro equipo, 
 
 Microsoft nos especifica que para poder hacer uno de Hyper-V debemos de disponer de al menos 4 GB de RAM. Para los que no sepan que cantidad de memoria disponen en su equipo vamos a verlo de una manera muy sencilla.
 
-Accediendo al administrador de tareas como anteriormente mediante la pestaña “Rendimiento” podemos verlo, pero en este caso pulsaremos sobre “Memoria”. Aquí podremos ver la cantidad y el tipo de memoria RAM que disponemos.
+Accediendo al administrador de tareas como anteriormente mediante la pestaña “Rendimiento” podemos verlo, pero en este caso pulsaremos sobre *Memoria*. Aquí podremos ver la cantidad y el tipo de memoria RAM que disponemos.
 
 ![Comprobar memoria ram]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/7 - Comprobar memoria ram.png){: .align-center}
 
@@ -114,15 +114,15 @@ Para habilitar Hyper-V tenemos varias opciones y en este caso trataremos dos de 
 
 ### Habilitar Hyper-V mediante el panel de control de Windows 10
 
-Para habilitar Hyper-V mediante el panel de control debemos hacer uso del botón derecho del ratón sobre el icono de inicio de Windows y acceder a “Aplicaciones y características”.
+Para habilitar Hyper-V mediante el panel de control debemos hacer uso del botón derecho del ratón sobre el icono de inicio de Windows y acceder a *Aplicaciones y características*.
 
 ![Habilitar Hyper-v aplicaciones y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/8 - habilitar hyper-v aplicaciones y caracteristicas.png){: .align-center}
 
-En la nueva ventana que se nos abre accedemos a “Programas y características”
+En la nueva ventana que se nos abre accedemos a *Programas y características*.
 
 ![Programas y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/9 - Programas y caracteristicas.png){: .align-center}
 
-Se nos volverá a abrir una nueva ventana en la que tendremos que acceder a “Activar o desactivar las características de Windows”
+Se nos volverá a abrir una nueva ventana en la que tendremos que acceder a *Activar o desactivar las características de Windows*.
 
 ![Activar o desactivar caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/10 - activar o descativar caracteristicas de windows.png){: .align-center}
 
