@@ -40,13 +40,13 @@ En primer lugar, comprobemos que versión de Windows 10 existe en nuestro equipo
 
 Pulsamos con el botón derecho del ratón sobre inicio y acceder a *Sistema*.
 
-![Comprobar version de Windows 10 - Sistema]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png){: .align-center}
+![Comprobar version de Windows 10 - Sistema]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/1 - Comprobar version W10 - sistema.png){: .align-center}
 
 Posteriormente, nos aparecerá otra ventana en la que seleccionaremos la opción *Acerca de* donde podremos ver las especificaciones del dispositivo y las especificaciones de Windows.
 
 En las especificaciones del sistema, podemos observar el tipo de sistema que tenemos, y comprobar si es de 64 bits. Más abajo, se encuentran las especificaciones de Windows donde se ve la edición de Windows 10 que está instalada en nuestro equipo.
 
-![Comprobar version de Windows 10 - version]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/2 - Comprobar version W10 - version.PNG){: .align-center}
+![Comprobar version de Windows 10 - version]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/2 - Comprobar version W10 - version.PNG){: .align-center}
 
 ### Comprobar si nuestro procesador tiene soporte SLAT
 
@@ -66,7 +66,7 @@ Ya solo queda ejecutar el siguiente comando:
 
 La información que confirmará si nuestro procesador tiene soporte SLAT será mostrada.
 
-![Comprobar soporte SLAT]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/3 - Comprobar soporte SLAT.png){: .align-center}
+![Comprobar soporte SLAT]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/3 - Comprobar soporte SLAT.png){: .align-center}
 
 ### Comprobar si nuestro procesador tiene capacidades de virtualización
 
@@ -74,7 +74,7 @@ Para comprobar si nuestro procesador soporta las instrucciones de virtualizació
 
 Es posible consultar nuestro modelo de procesador pulsando el botón derecho del ratón sobre el botón inicio y accediendo a *Sistema*. En la opción *Acerca de* es donde encontraremos indicado dicho modelo.
 
-![Comprobar modelo de procesador]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/4 - comprobar modelo de procesador.png){: .align-center}
+![Comprobar modelo de procesador]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/4 - comprobar modelo de procesador.png){: .align-center}
 
 Una vez conozcamos nuestro modelo exacto, se podrá acceder a las plataformas online de [AMD](https://products.amd.com/es-es) e [Intel](https://ark.intel.com/es-es) y consultar las características, buscando las tecnologías VT-x en caso de procesadores Intel, o AMD-V en caso de procesadores AMD.
 
@@ -82,7 +82,7 @@ Otra de las vías existentes para llevar a cabo esta comprobación es haciendo u
 
 Una vez descargado e instalado, se ejecuta el programa. Es en la pestaña *CPU*, donde se encuentra la zona *Instructions* que presenta la información sobre todo el conjunto de instrucciones que soporta nuestra CPU, entre las cuales tendremos que buscar las instrucciones VT-x en caso de Intel, o AMD-V en caso de que nuestro procesador sea AMD.
 
-![Comprobar vt-x_amd-v]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/5 - Comprobar vt-x_amd-v.png){: .align-center}
+![Comprobar vt-x_amd-v]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/5 - Comprobar vt-x_amd-v.png){: .align-center}
 
 ### Comprobar si la virtualización está activada
 
@@ -92,7 +92,7 @@ Una manera sencilla en Windows 10 sería acceder al administrador de tareas medi
 
 En el momento en que accedamos al administrador de tareas, pulsamos en la pestaña *Rendimiento*, y a continuación pulsamos sobre *CPU* en la zona izquierda. Debajo de la gráfica se muestra la información relativa a si la virtualización está efectivamente habilitada. 
 
-![Comprobar virtualizacion activada]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/6 - comprobar virtualizacion activada.png){: .align-center}
+![Comprobar virtualizacion activada]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/6 - comprobar virtualizacion activada.png){: .align-center}
 
 En caso de no estarla, habría que activarla mediante el acceso a la BIOS de nuestro equipo, siempre que ésta la soporte.
 
@@ -102,7 +102,7 @@ Microsoft nos especifica que, para poder ejecutar Hyper-V de manera correcta, he
 
 Accediendo al administrador de tareas, al igual que se indicó anteriormente mediante la pestaña *Rendimiento*, es posible verlo, sin embargo en este caso, pulsaremos sobre *Memoria*. Aquí podremos ver la cantidad y el tipo de memoria RAM de la que disponemos.
 
-![Comprobar memoria ram]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/7 - Comprobar memoria ram.png){: .align-center}
+![Comprobar memoria ram]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/7 - Comprobar memoria ram.png){: .align-center}
 
 Si se cumplen todos estos puntos, estás list@ para habilitar Hyper-V en tu equipo.
 
@@ -116,19 +116,19 @@ Para habilitar [Hyper-V](https://www.albertopc.com/blog/Que-es-Microsoft-Hyper-V
 
 Para habilitar Hyper-V mediante el panel de control es necesario hacer uso del botón derecho del ratón sobre el icono de inicio de Windows y acceder a *Aplicaciones y características*.
 
-![Habilitar Hyper-v aplicaciones y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/8 - habilitar hyper-v aplicaciones y caracteristicas.png){: .align-center}
+![Habilitar Hyper-v aplicaciones y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/8 - habilitar hyper-v aplicaciones y caracteristicas.png){: .align-center}
 
 En la nueva ventana que se abre accedemos a *Programas y características*
 
-![Programas y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/9 - Programas y caracteristicas.png){: .align-center}
+![Programas y caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/9 - Programas y caracteristicas.png){: .align-center}
 
 Se abrirá una nueva ventana en la que tendremos que acceder a *Activar o desactivar las características de Windows*
 
-![Activar o desactivar caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/10 - activar o descativar caracteristicas de windows.png){: .align-center}
+![Activar o desactivar caracteristicas]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/10 - activar o descativar caracteristicas de windows.png){: .align-center}
 
 Consecutivamente, aparecerá un listado de características disponibles en Windows dentro de las que debemos buscar Hyper-V y habilitarlo. Como se observa, junto a Hyper-V, se habilitan más servicios que nos permitirán la administración del hipervisor mediante interfaz gráfica y texto, haciendo uso de PowerShell.
 
-![Hyper-V]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/11 - Hyper-V.PNG){: .align-center}
+![Hyper-V]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/11 - Hyper-V.PNG){: .align-center}
 
 Finalmente, solo queda pulsar en Aceptar y empezará el proceso para habilitar Hyper-V. Una vez concluido, será necesario reiniciar el equipo para poder hacer uso de la nueva característica. 
 
@@ -140,15 +140,15 @@ Para poder habilitar Hyper-V mediante PowerShell será necesario comenzar abrien
 
 Una vez introducido el comando empezará el proceso de habilitar la característica de Hyper-V.
 
-![Activar Hyper-V PowerShell]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/12 - Activar Hyper-v ps.PNG){: .align-center}
+![Activar Hyper-V PowerShell]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/12 - Activar Hyper-v ps.PNG){: .align-center}
 
 Una vez concluido, será de igual modo necesario reiniciar el equipo.
 
-![Reiniciar PowerShell]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/13 - reiniciar ps.PNG){: .align-center}
+![Reiniciar PowerShell]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/13 - reiniciar ps.PNG){: .align-center}
 
 Cabe destacar que, tanto si hemos habilitado Hyper-V mediante interfaz gráfica como por PowerShell, al volver a iniciar sesión después del reinicio habremos de encontrar entre nuestras aplicaciones el Administrador de Hyper-V.
 
-![Administrador Hyper-V]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-10-Habilitar-Hyper-V-en-Windows-10/14- administrador hyper-v.PNG){: .align-center}
+![Administrador Hyper-V]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-13-Habilitar-Hyper-V-en-Windows-10/14- administrador hyper-v.PNG){: .align-center}
 
 Hasta aquí el post, espero que os haya sido útil e interesante. En los próximos posts veremos cómo es la interfaz del Administrador de Hyper-V y comenzaremos a crear nuestras primeras máquinas virtuales.
 
