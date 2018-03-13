@@ -110,7 +110,7 @@ Si se cumplen todos estos puntos, estás list@ para habilitar Hyper-V en tu equi
 
 Como se comentó al inicio de este post, Hyper-V es una característica integrada en Windows 10, por lo que no es necesario ninguna descarga ni instalación de software adicional por parte del usuario.
 
-Para habilitar Hyper-V(enlace a post Qué es HyperV) existen varias opciones. En este caso, nos centraremos en dos de ellas: habilitación mediante el panel de control de Windows 10 a través de interfaz gráfica y habilitación desde una consola de PowerShell.
+Para habilitar [Hyper-V](https://www.albertopc.com/blog/Que-es-Microsoft-Hyper-V/) existen varias opciones. En este caso, nos centraremos en dos de ellas: habilitación mediante el panel de control de Windows 10 a través de interfaz gráfica y habilitación desde una consola de PowerShell.
 
 ### Habilitar Hyper-V mediante el panel de control de Windows 10
 
