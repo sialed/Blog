@@ -48,7 +48,7 @@ También se está mejorando el soporte de Kubernetes, el cual se encuentra actua
 
 ### Infraestructuras hiperconvergentes (HCI)
 
-La infraestructura hiperconvergente es una de las últimas tendencias en la industria se servidores en la actualidad. Según IDC, el [mercado de HCI creció un 64%](https://thestack.com/data-centre/2017/06/26/hyperconverged-market-grows-64-over-2016/) en 2016.
+La infraestructura hiperconvergente es una de las últimas tendencias en la industria de servidores en la actualidad. Según IDC, el [mercado de HCI creció un 64%](https://thestack.com/data-centre/2017/06/26/hyperconverged-market-grows-64-over-2016/) en 2016.
 
 Microsoft se asocia con proveedores de hardware líderes en la industria para proporcionar una solución HCI asequible y extremadamente robusta. En Windows Server 2019 se agregan capacidades de administración de implementaciones HCI junto con el Proyecto Honolulu, para simplificar la administración y las actividades cotidianas de entornos HCI.
 
