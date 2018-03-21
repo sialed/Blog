@@ -4,8 +4,8 @@ tags:
   - Microsoft
   - Windows Server 2019
 header:
-  image: /assets/images/posts/2018-03-21-¡Windows Server 2019 a la vista!/header.png
-  og_image: /assets/images/posts/2018-03-21-¡Windows Server 2019 a la vista!/og.png
+  image: /assets/images/posts/2018-03-21-¡Windows Server 2019 a la vista!/header.jpg
+  og_image: /assets/images/posts/2018-03-21-¡Windows Server 2019 a la vista!/og.jpg
 ---
 
 Ayer día 20 de marzo de 2018, el equipo de Windows Server lanzaba la noticia de que Windows Server 2019 estaría disponible en la segunda mitad del año 2018. Aunque desde este momento se podría acceder a la preview build a través de [programa Insider](https://insider.windows.com/en-us/for-business-getting-started-server/).
