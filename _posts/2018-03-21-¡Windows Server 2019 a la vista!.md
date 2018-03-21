@@ -62,4 +62,6 @@ Espero que el post os haya gustado y la información haya sido útil. Comentad q
 
 ¡Un saludo!
 
+- - -
+
 Fuente: [Cloud Perspectives Blog]( https://cloudblogs.microsoft.com/windowsserver/2018/03/20/introducing-windows-server-2019-now-available-in-preview/)
