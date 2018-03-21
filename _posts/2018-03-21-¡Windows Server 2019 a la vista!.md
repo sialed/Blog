@@ -32,7 +32,7 @@ El enfoque de seguridad de Microsoft tiene tres aspectos fundamentales: proteger
 
 En el aspecto de proteger, en Windows Server 2016 se presentaron las máquinas virtuales blindadas. Estas máquinas virtuales blindadas proporcionan funciones adicionales de seguridad como cifrados con Bitlocker, protección contra manipulaciones o cifrado automático del tráfico generado al realizar migraciones en vivo. En Windows Server 2019, las máquinas virtuales blindadas también admitirán máquinas virtuales Linux.
 
-Tanto en los aspectos de detectar y responder, en Windows Server 2019, se incorpora Windows Defender Advanced Threat Protection (ATP) que brinda protección preventiva, detecta ataques y exploits zero day.
+Tanto en los aspectos de detectar y responder, en Windows Server 2019, se incorpora Windows Defender Advanced Threat Protection (ATP) que brinda protección preventiva, detectar ataques y exploits zero day.
 
 ![Windows Defender Advanced Threat Protection (ATP)]({{ site.url }}{{ site.baseurl }}/assets/images/posts/2018-03-21-¡Windows Server 2019 a la vista!/2_ATP.png){: .align-center}
 
