@@ -4,8 +4,8 @@ tags:
   - Microsoft
   - Windows Server 2019
 header:
-  image: /assets/images/posts/2018-03-21-Conociendo-el-Administrador-de-Hyper-V/header.jpg
-  og_image: /assets/images/posts/2018-03-21-Conociendo-el-Administrador-de-Hyper-V/og.jpg
+  image: /assets/images/posts/2018-03-26-Conociendo-el-Administrador-de-Hyper-V/header.jpg
+  og_image: /assets/images/posts/2018-03-26-Conociendo-el-Administrador-de-Hyper-V/og.jpg
 ---
 
 Tras seguir las indicaciones suministradas en el post anterior, y una vez hayamos [habilitado Hyper-V]( https://www.albertopc.com/blog/Habilitar-Hyper-V-en-Windows-10/) en Windows, tendremos a nuestra disposición el administrador de Hyper-V, el cual nos permite gestionar las máquinas virtuales mediante una interfaz gráfica.
