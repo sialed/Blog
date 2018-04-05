@@ -137,7 +137,6 @@
     position: relative;
     margin-bottom: 2em;
     padding: 3em 0;
-    height: 500px; /* **********************************************************************MODIFICADO */
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,7 +173,6 @@
 
     .page__title {
       font-size: $type-size-2;
-      vertical-align:middle; /* ************************************************************************************* */
 
       @include breakpoint($small) {
         font-size: $type-size-1;
