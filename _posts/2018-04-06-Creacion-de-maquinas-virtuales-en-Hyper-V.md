@@ -5,9 +5,8 @@ tags:
   - Hyper-V
   - Microsoft
 header:
-  image: /assets/images/posts/2018-04-06-Creacion-de-maquinas-virtuales-en-Hyper-V/header.png
-  #overlay_image: /assets/images/posts/2018-04-06-Creacion-de-maquinas-virtuales-en-Hyper-V/header.png
-  #overlay_filter: 0.5
+  overlay_image: /assets/images/posts/2018-04-06-Creacion-de-maquinas-virtuales-en-Hyper-V/header.png
+  overlay_filter: 0.5
   og_image: /assets/images/posts/2018-04-06-Creacion-de-maquinas-virtuales-en-Hyper-V/og.png
 ---
 
