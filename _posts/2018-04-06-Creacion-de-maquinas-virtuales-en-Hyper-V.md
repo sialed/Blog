@@ -52,7 +52,7 @@ El siguiente paso del asistente permite seleccionar la generación de la máquin
 
 * **Generación 1**: permite la ejecución de sistemas operativos invitados de 32 y 64 bits y tiene un firmware basado en BIOS.
 
-* ** Generación 2**: solo ejecuta sistemas operativos invitados de 64 bits, tiene un firmware basado en UEFI y permite disponer de las últimas características de virtualización.
+* **Generación 2**: solo ejecuta sistemas operativos invitados de 64 bits, tiene un firmware basado en UEFI y permite disponer de las últimas características de virtualización.
 
 Es muy importante definir esta generación correctamente, ya que una vez creada la máquina **no es posible modificarla**, siendo básica para la correcta ejecución de los sistemas operativos invitados.
 
